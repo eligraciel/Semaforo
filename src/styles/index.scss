@@ -1,13 +1,53 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
-/* 
+.semaforo {
+    
+    width: 200px;
+    height: 400px;
+    background-color: black;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    
+        
+}
 
-    You can write your own styles here...
+.red {
+    background-color:red;
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+         
+}
 
-*/
+.green {
+    background-color:green;
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    margin-right: auto;
+    margin-left: auto;
+
+    
+}
+
+.yellow {
+    background-color:yellow;
+    width: 90px;
+    height: 90px;
+    border-radius: 60px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 40px;
+     
+}
+
+.light {
+    box-shadow: 0 0 40px 30px gainsboro;
+        
+}
